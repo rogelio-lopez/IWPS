@@ -1,0 +1,122 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    background-color: #e9e9e9;
+}
+.contact > h2{
+    color: var(--blue-color);
+    padding: 20px;
+    padding-bottom: 10px;
+}
+.contact__content{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.contact__content > form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    margin-right: 20px;
+}
+.contact__info{
+    min-width: 150px;
+    width: 25%;
+    margin-left: 20px;
+}
+.contact__infoText{
+    margin-top: 8px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid lightgray;
+    box-shadow: 0px 0px 2px -1px lightgrey;
+    background-color: #eeeeee;
+}
+.contact__infoText > p{
+    padding: 5px;
+    color: var(--blue-color);
+}
+
+/* email info area */
+.contact__input{
+    height: 50px;
+    width: 100%;
+    margin-top: 8px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px -1px lightgrey;
+    background-color: #f5f5f5;
+}
+.contact__input > span{
+    color: lightgrey;
+    padding-left: 5px;
+    margin-bottom: -20px;
+}
+.contact__input > input{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    border-bottom: 3px solid lightgray;
+    padding: 5px;
+    padding-top: 25px;
+    padding-bottom: 7px;
+    background-color: transparent;
+}
+.contact__input > input:focus{
+    border-color: var(--blue-color);
+    transition: border-color .2s ease-in;
+}
+
+/* message input area */
+.contact__message{
+    width: 100%;
+    height: 180px;
+    margin-top: 8px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px -1px lightgrey;
+    background-color: #f5f5f5;
+}
+.contact__message > span{
+    color: lightgray;
+    padding-left: 5px;
+    margin-bottom: -20px;
+}
+.contact__message > textarea{
+    border: none;
+    outline: none;
+    padding: 5px;
+    padding-top: 25px;
+    background-color: transparent;
+    border-radius: 5px;
+    border-bottom: 3px solid lightgray;
+}
+.contact__message > textarea:focus{
+    border-color: var(--blue-color);
+}
+.contact__input, .contact__message{
+    display: flex;
+    flex-direction: column;
+}
+
+/* submit button (material UI) */
+.contact__submit{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.contact__submitBtn{
+    color: var(--blue-color) !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    border-color: var(--blue-color) !important;
+    margin: 10px !important;
+}
+.contact__linkedIn{
+    color: #0077b5 !important;
+}

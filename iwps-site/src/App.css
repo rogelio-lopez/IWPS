@@ -1,0 +1,45 @@
+
+body{
+  font-family: 'Faustina', serif;
+  
+  background: linear-gradient(to right, #f6f6f6, #f4f4f4);
+
+  --blue-color: #20225f;
+  --yellow-color: #f2c812;
+  overflow-x: hidden;
+}
+
+
+/* changing the autofill */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  /*border: 1px solid green;
+  -webkit-text-fill-color: green;*/
+  -webkit-box-shadow: transparent inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/* scroll bar */
+::-webkit-scrollbar-track
+{
+    display: none;
+}
+::-webkit-scrollbar
+{
+    width: 5px;
+    background-color: #F5F5F5;
+}
+::-webkit-scrollbar-thumb
+{
+    border-radius: 4px;
+    background: var(--blue-color);
+}
+
+
