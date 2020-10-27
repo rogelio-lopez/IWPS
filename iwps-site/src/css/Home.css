@@ -31,14 +31,30 @@
 
 
 /* infoBox section */
-.home__infoBoxes{
+.home__about{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
     max-width: 1200px;
     padding: 30px;
     margin-left: auto;
     margin-right: auto;
+}
+.home__about > h2{
+    font-size: 40px;
+    padding: 15px;
+}
+.home__aboutText{
+    width: 95%;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+.home__infoBoxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
 }
 @media screen and (max-width: 980px){
     .home__infoBoxes{
@@ -63,6 +79,6 @@
 
 /* sections */
 
-#info-section, #services-section, #training-section{
+#about-section, #services-section, #training-section{
     background-color: rgb(243, 242, 242);
 }

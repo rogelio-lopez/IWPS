@@ -16,7 +16,7 @@ function Header() {
                 </div>
                 
                 <div className='header__navBar'>
-                    <Button className='header__navBtn'>ABOUT</Button>
+                    <Button className='header__navBtn' href='#about-section'>ABOUT</Button>
                     <Button className='header__navBtn' href='#services-section'>SERVICES</Button>
                     <Button className='header__navBtn' href='#prices-section'>PRICES</Button>
                     <Button className='header__navBtn' href='#training-section'>TRAINING</Button>
