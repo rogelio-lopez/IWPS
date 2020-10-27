@@ -1,5 +1,5 @@
 .infobox{
-    background-color: #e4e4e4;
+    background-color: var(--grey-color);
     display: flex;
     flex-direction: column;
     align-items: center;

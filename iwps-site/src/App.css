@@ -2,10 +2,11 @@
 body{
   font-family: 'Faustina', serif;
   
-  background: linear-gradient(to right, #f6f6f6, #f4f4f4);
+  background-color: var(--grey-color);
 
   --blue-color: #20225f;
   --yellow-color: #f2c812;
+  --grey-color: #e3e3e3;
   overflow-x: hidden;
 }
 

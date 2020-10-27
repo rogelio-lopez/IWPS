@@ -9,11 +9,13 @@ function Home() {
     return (
         <div className='home'>
 
-            <div className="home__topImg">
+            <div className="home__top">
                 {/*<img src={require('../images/deskImg.jpeg')} alt='' />*/}
 
-                <h3>YOUR LOCAL BUSINESS GROWTH PARTNER</h3>
-                <h2>Bookkeeping and Accounting Services for Small Businesses</h2>
+                <div className="home__topImg">
+                    <h3>YOUR LOCAL BUSINESS GROWTH PARTNER</h3>
+                    <h2>Bookkeeping and Accounting Services for Small Businesses</h2>
+                </div>
             </div>          
                 
             <section id='info-section'>

@@ -9,7 +9,9 @@ function App() {
     
     <div className="app">
     
-      <Header />
+      <section id='header-section'>
+        <Header />
+      </section>
 
       <Home />
 
